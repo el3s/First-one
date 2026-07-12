@@ -1,0 +1,20 @@
+{
+  "name": "student-community-backend",
+  "version": "1.0.0",
+  "description": "Backend for a student community app - grade-locked feed, posts, comments, private messages, reports, blocks",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1",
+    "cors": "^2.8.5"
+  }
+}
